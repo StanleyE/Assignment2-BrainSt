@@ -36,12 +36,15 @@
 function isEven (number){
     if (number % 2 == 0 ){
         return "The number is even";
+//         console.log("The number is even");
     }
-    else if (number % 2 != 1){
+    else if (number % 2 == 1){
         return "The number is odd";
+//         console.log("The number is odd");
     }
     else {
         return "This is a decimal or NaN"
+//         console.log("This is a decimal or NaN");
     }
 }
 
